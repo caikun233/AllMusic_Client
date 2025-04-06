@@ -15,6 +15,7 @@ on:
     # Sequence of patterns matched against refs/tags
     tags:        
       - '*'
+  workflow_dispatch:
 
 jobs:
   build_fabric_1_14_4:
